@@ -327,7 +327,7 @@ Aspiring software engineer and full-stack developer with a passion for problem-s
             </div>
 
             {/* Node.js */}
-            <div 
+            {/* <div 
               className={`skill-card ${skillsVisible ? "active" : ""}`}
               style={{ transitionDelay: '1.08s' }}
               onClick={(e) => e.currentTarget.classList.add('clicked')}
@@ -337,7 +337,21 @@ Aspiring software engineer and full-stack developer with a passion for problem-s
               <p>
                 Backend APIs and server-side application development.
               </p>
+            </div> */}
+
+            {/* Flutter */}
+            <div 
+              className={`skill-card ${skillsVisible ? "active" : ""}`}
+              style={{ transitionDelay: '1.08s' }}
+              onClick={(e) => e.currentTarget.classList.add('clicked')}
+            >
+              <i className="devicon-flutter-plain colored"></i>
+              <h3>Flutter</h3>
+              <p>
+                Cross-platform mobile application UI development and screen design.
+              </p>
             </div>
+
 
             {/* MongoDB */}
             <div 
@@ -380,6 +394,20 @@ Aspiring software engineer and full-stack developer with a passion for problem-s
     <strong>Tech Stack:</strong>  C, STM32F401, Embedded Systems
   </p>
 </div>
+
+<div className="project-card">
+  <h3>Placement Preparation LMS (Ongoing)</h3>
+  <p>
+    Developing a mobile-based Learning Management System to support technical
+    interview preparation for college placements. The app organizes important
+    concepts and topics in a structured format with intuitive UI for easy
+    navigation and learning.
+  </p>
+  <p style={{ color: '#fff', marginTop: '1rem' }}>
+    <strong>Focus:</strong> Mobile UI Design, Learning Flow, Concept Organization
+  </p>
+</div>
+
           </div>
         </div>
       </section>
