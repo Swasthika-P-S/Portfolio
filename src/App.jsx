@@ -404,9 +404,10 @@ Aspiring software engineer and full-stack developer with a passion for problem-s
     navigation and learning.
   </p>
   <p style={{ color: '#fff', marginTop: '1rem' }}>
-    <strong>Focus:</strong> Mobile UI Design, Learning Flow, Concept Organization
+    <strong>Tech Stack:</strong> Flutter, MongoDB
   </p>
 </div>
+
 
           </div>
         </div>
