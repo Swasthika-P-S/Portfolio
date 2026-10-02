@@ -373,42 +373,187 @@ Aspiring software engineer and full-stack developer with a passion for problem-s
       <section className="section" id="projects">
         <div className="container">
           <h2>Projects</h2>
+          <p className="projects-intro">
+            A selection of applications and systems I have built across web,
+            mobile, privacy, and embedded development.
+          </p>
 
-         <div className="projects-grid">
-  <div className="project-card">
-    <h3>Hall Booking Portal</h3>
-    <p>
-      Developed a web-based booking system for college administration with automated conflict detection to prevent double bookings. Implemented role-based access control and an admin analytics dashboard for efficient management.
-    </p>
-    <p style={{ color: '#fff', marginTop: '1rem' }}>
-    <strong>Tech Stack:</strong> JavaScript, HTML, CSS, Node.js, Express, MongoDB
-  </p>
-  </div>
+          <div className="projects-grid">
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-shield-halved"></i>
+                </span>
+                <span className="project-category">Privacy &amp; AI</span>
+              </div>
+              <h3>VEILiq</h3>
+              <p>
+                A redaction review system that detects sensitive information
+                using pattern matching and AI, then lets users review,
+                customize, and export safer text.
+              </p>
+              <ul className="project-tech" aria-label="Technology stack">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>Gemini API</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/sprintfour_VEILiq"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View VEILiq on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
 
-           <div className="project-card">
-  <h3>Health Monitor System</h3>
-  <p>
-    Developed a real-time health monitoring system using STM32F401 microcontroller. Integrated sensors to measure heart rate and body temperature, with readings displayed on an LCD screen and LED-based alert system for abnormal values.
-  </p>
-  <p style={{ color: '#fff', marginTop: '1rem' }}>
-    <strong>Tech Stack:</strong>  C, STM32F401, Embedded Systems
-  </p>
-</div>
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-scale-balanced"></i>
+                </span>
+                <span className="project-category">Legal Tech</span>
+              </div>
+              <h3>LexFix</h3>
+              <p>
+                A legal-tech application project, with containerization and
+                CI/CD workflows supporting a more consistent build and
+                deployment process.
+              </p>
+              <ul className="project-tech" aria-label="Project focus">
+                <li>Full-stack</li>
+                <li>DevOps</li>
+                <li>CI/CD</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/lexfix_dev"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View LexFix on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
 
-<div className="project-card">
-  <h3>Placement Preparation LMS (Ongoing)</h3>
-  <p>
-    Developing a mobile-based Learning Management System to support technical
-    interview preparation for college placements. The app organizes important
-    concepts and topics in a structured format with intuitive UI for easy
-    navigation and learning.
-  </p>
-  <p style={{ color: '#fff', marginTop: '1rem' }}>
-    <strong>Tech Stack:</strong> Flutter, MongoDB
-  </p>
-</div>
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-location-dot"></i>
+                </span>
+                <span className="project-category">Mobile &amp; Safety</span>
+              </div>
+              <h3>Secure Parental Control</h3>
+              <p>
+                An Android application for secure parent-and-child
+                authentication and real-time location tracking with GPS,
+                Firebase, and Google Maps.
+              </p>
+              <ul className="project-tech" aria-label="Technology stack">
+                <li>Android</li>
+                <li>Firebase</li>
+                <li>Google Maps</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/Secure-Parental-Control-Child-Location-Tracking-System"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Secure Parental Control on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
 
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-book-open"></i>
+                </span>
+                <span className="project-category">Learning</span>
+              </div>
+              <h3>Placement Preparation LMS</h3>
+              <p>
+                A mobile learning platform for placement preparation that
+                organizes technical interview concepts into a clear,
+                easy-to-navigate study experience.
+              </p>
+              <ul className="project-tech" aria-label="Technology stack">
+                <li>Flutter</li>
+                <li>MongoDB</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/lms_flutterapp"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Placement Preparation LMS on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
 
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-calendar-check"></i>
+                </span>
+                <span className="project-category">Web Application</span>
+              </div>
+              <h3>Hall Booking Portal</h3>
+              <p>
+                A booking system for institutional spaces, with availability
+                checks, booking requests, conflict prevention, and
+                administrator approval and management tools.
+              </p>
+              <ul className="project-tech" aria-label="Technology stack">
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>MongoDB</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/hall-booking-portal"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Hall Booking Portal on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
+
+            <article className="project-card">
+              <div className="project-card-top">
+                <span className="project-icon" aria-hidden="true">
+                  <i className="fa-solid fa-heart-pulse"></i>
+                </span>
+                <span className="project-category">Embedded Systems</span>
+              </div>
+              <h3>Health Monitor System</h3>
+              <p>
+                An STM32-based monitor that measures heart rate, temperature,
+                and finger detection, with readings shown on an LCD and visual
+                alerts for abnormal values.
+              </p>
+              <ul className="project-tech" aria-label="Technology stack">
+                <li>C</li>
+                <li>STM32F4</li>
+                <li>Sensors</li>
+                <li>LCD</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/Swasthika-P-S/Health-Monitor-System"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="View Health Monitor System on GitHub"
+              >
+                View project <i className="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </article>
           </div>
         </div>
       </section>
